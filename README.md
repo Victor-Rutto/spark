@@ -894,18 +894,13 @@ SparkSession
 Local Files
 ```
 
-The environment can now be used to learn and experiment with:
-
-* Spark DataFrames
-* CSV and other file formats
-* Data transformations
-* Filtering
-* Aggregations
-* Joins
-* Window functions
-* SQL with Spark
-* PySpark
-* Data pipelines
-* Distributed data processing
-
-The next step is to use the local `sales.csv` dataset to practice Spark operations and understand how Spark processes data compared with regular Python/Pandas workflows.
+### Next time you want to run spark
+Open Terminal
+     ↓
+cd ~/Downloads/spark/spark-4
+     ↓
+source .venv/bin/activate
+     ↓
+pyspark
+     ↓
+Start working with Spark
